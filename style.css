@@ -1,18 +1,60 @@
 body{
-    font-family: sans-serif;   
+    margin: 0%;
+    text-align: center;  
 }
 h1{
-    font-size: 50px;
+    color: beige;
 }
-.name-highlight{
+img{
+    float: left;
+    margin: 5px;
+}
+p{
+    text-align: justify;
+    font-size: 25px;
+}
+.orange-highlight{
     color: maroon;
 }
 .half-width{
     width: 40%;
-    float: left;
+    
     margin-left:5%;
     padding-left:2% ;
 }
 .half-width img{
 width: 100%;
+float: right;
+text-align: justify;
+
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    border: 5px red;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    float: right;
+    text-align: justify;
+}
+section{
+    float: left 200px;
+}
+.link-buttton{
+    text-decoration: none;
+    background-image: linear-gradient(light salmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+
+}
+.single-experience{
+    box-shadow: 10px 10px 40px blue;
+}
+footer p{
+    text-align: center;
 }
